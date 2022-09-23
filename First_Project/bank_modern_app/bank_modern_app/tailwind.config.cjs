@@ -14,6 +14,8 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        confortaa:["Comfortaa", "Regular"],
+        sfpro:["SF_Pro","Regular"]
       },
     },
     screens: {

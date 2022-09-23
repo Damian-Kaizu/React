@@ -1,5 +1,6 @@
 import { Navbar, Billing, CardDeal, Business, Clients, CTA, Stats, Footer, Testimonials, Hero, } from './components'
 import styles from './style'
+import './ScrollReval'
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">

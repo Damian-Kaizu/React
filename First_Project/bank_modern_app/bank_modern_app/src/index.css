@@ -4,6 +4,19 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face{
+  font-family:"Comfortaa";
+  src:local('Comfortaa'),
+    url('/fonts/comfortaa/Comfortaa-Regular.ttf') format('truetype');
+}
+
+@font-face{
+  font-family:"SF_Pro";
+  src:local('SF_Pro'),
+    url('/fonts/sf_pro/SFPRODISPLAYREGULAR.OTF') format('truetype');
+}
+
 :root {
   --black-gradient: linear-gradient(
     144.39deg,
@@ -137,4 +150,20 @@
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+}
+
+.footerTitle{
+  transition: all ease 0.4s;
+}
+ 
+.footerTitle:hover{
+  color:#214d76;
+}
+
+.footerLink{
+transition: all ease 0.3s;
+}
+
+.footerLink:hover{
+  padding-left: 7px;
 }
